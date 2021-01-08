@@ -1,4 +1,4 @@
-package javaTest;
+package javaTest.Chapter3;
 
 //1부터 100사이의 정수 중에서 3또는 4의 배수의 합을 계산하라
 

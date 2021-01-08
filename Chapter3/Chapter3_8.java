@@ -1,4 +1,4 @@
-package javaTest;
+package javaTest.Chapter3;
 
 //간단한 계산기 프로그램 작성.
 //사용자로부터 하나의 문자를 입력받는다. 이어서 사용자로부터 2개의 숫자를 입력 받는다.

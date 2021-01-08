@@ -1,4 +1,4 @@
-package javaTest;
+package javaTest.Chapter3;
 
 //사용자로부터 키를 입력받아 표준 체중을 계산한 후에
 //사용자의 체중과 비교하여 저체중인지, 표준인지, 과체중인지 판단하는 프로그램을 작성하라

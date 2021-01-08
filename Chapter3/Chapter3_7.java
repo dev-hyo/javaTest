@@ -1,4 +1,4 @@
-package javaTest;
+package javaTest.Chapter3;
 
 //피타고라스의 정리를 이용하여, 각 변의 길이가 100보다 작은 삼각형 중에서
 //피타고라스의 정리가 성립하는 직각 삼각형은 몇 개나 있을까?

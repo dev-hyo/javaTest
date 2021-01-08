@@ -1,4 +1,4 @@
-package javaTest;
+package javaTest.Chapter3;
 
 //사용자가 입력한 값이 1,2,...,9이면 "ONE","TWO","...","NINE"과 같이 출력하는 프로그램
 //1부터 9사이가 아니면 OTHER를 출력한다.

@@ -1,4 +1,4 @@
-package javaTest;
+package javaTest.Chapter3;
 
 //두 개의 주사위의 합이 6이 되는 경우는 몇 가지있을까?
 //합이 6이 되는 경우의 수를 출력하는 프로그램을 작성하자.
