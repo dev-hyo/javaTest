@@ -1,6 +1,9 @@
 package javaTest.Other;
 
-class Student{
+//멤버변수를 갖는 Student클래스를 정의
+//Student클래스에 생성자와 info()추가
+
+/*class Student{
     String name; //학생이름
     int ban;     //반
     int no;      //번호
@@ -33,3 +36,6 @@ public class Exercise6_2 {
         System.out.println(s);
     }
 }
+
+*/
+
