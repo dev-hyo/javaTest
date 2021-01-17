@@ -2,39 +2,39 @@ package javaTest.Chapter8;
 
 import javax.swing.*;
 import java.awt.*;
+import java.util.ArrayList;
 
 public class Chapter8_6 extends JFrame {
-    JPanel jPanel1 = new JPanel();
-    JPanel jPanel2 = new JPanel();
     private String[] labels={"1","2","3","4","5","6","7","8","9","*","0","#","send"," ","end"};
+    private JButton bclear;
+    private JTextField jTextField;
+    JPanel buttonPanel= new JPanel();
 
-    Chapter8_6() {
-        setSize(520, 380);
-        setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-        setTitle("MyFrame");
-        jPanel1.setLayout(new GridLayout(3,5));
+    public Chapter8_6() {
+        setTitle("");
+        setSize(420,300);
+        setLayout(new BorderLayout());
 
-        JTextField jTextField = new JTextField(44);
-        jTextField.setLocation(0,20);
-        jPanel2.add(jTextField);
+        jTextField = new JTextField("");
+        add(jTextField, BorderLayout.NORTH);
 
         JButton[] button = new JButton[16];
         int index=0;
         for(int i=0; i<5; i++){
             for(int cols=0; cols<3; cols++){
                 button[index] =new JButton(labels[index]);
-                jPanel1.add(button[index]);
+                buttonPanel.add(button[index]);
                 index++;
             }
         }
+        buttonPanel.setLayout(new GridLayout(0,3,3,3));
+        add(buttonPanel);
 
+        bclear = new JButton("clear");
+        add(bclear,BorderLayout.EAST);
 
-
-        add(jPanel2);
-        add(jPanel1);
         setVisible(true);
     }
-
 
     public static void main(String args[]){
         Chapter8_6 Chapter8_6 = new Chapter8_6();
