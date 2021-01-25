@@ -34,3 +34,4 @@ public class xnumber {
         System.out.println(stringBuilder);
     }
 }
+
