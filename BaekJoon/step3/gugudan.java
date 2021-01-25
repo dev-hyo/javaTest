@@ -1,4 +1,4 @@
-package javaTest.BaekJoon.stepThree;
+package javaTest.BaekJoon.step3;
 
 import java.util.Scanner;
 
