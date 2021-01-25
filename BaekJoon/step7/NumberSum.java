@@ -18,3 +18,4 @@ public class NumberSum {
         System.out.println(sum);
     }
 }
+
