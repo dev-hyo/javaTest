@@ -20,3 +20,4 @@ public class nprint_opposition {
         }
     }
 }
+
